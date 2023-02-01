@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="3" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-31T15:59:47 PST" name="Default suite" finished-at="2023-01-31T16:00:55 PST" duration-ms="68534">
+    <groups>
+      <group name="execution1">
+        <method signature="Facebook_Testng.newRegistration()[pri:3, instance:com.basicscript_facebooktestng.Facebook_Testng@957e06]" name="newRegistration" class="com.basicscript_facebooktestng.Facebook_Testng"/>
+        <method signature="Facebook_Testng.ascreenshot2()[pri:0, instance:com.basicscript_facebooktestng.Facebook_Testng@957e06]" name="ascreenshot2" class="com.basicscript_facebooktestng.Facebook_Testng"/>
+        <method signature="Facebook_Testng.screenshot1()[pri:2, instance:com.basicscript_facebooktestng.Facebook_Testng@957e06]" name="screenshot1" class="com.basicscript_facebooktestng.Facebook_Testng"/>
+      </group> <!-- execution1 -->
+      <group name="execution">
+        <method signature="Facebook_Testng.launchUrl()[pri:0, instance:com.basicscript_facebooktestng.Facebook_Testng@957e06]" name="launchUrl" class="com.basicscript_facebooktestng.Facebook_Testng"/>
+        <method signature="Facebook_Testng.loginClick()[pri:1, instance:com.basicscript_facebooktestng.Facebook_Testng@957e06]" name="loginClick" class="com.basicscript_facebooktestng.Facebook_Testng"/>
+      </group> <!-- execution -->
+    </groups>
+    <test started-at="2023-01-31T15:59:47 PST" name="Default test" finished-at="2023-01-31T16:00:55 PST" duration-ms="68534">
+      <class name="com.basicscript_facebooktestng.Facebook_Testng">
+        <test-method is-config="true" signature="listofchromeoptions()[pri:0, instance:com.basicscript_facebooktestng.Facebook_Testng@957e06]" started-at="2023-01-31T15:59:47 PST" name="listofchromeoptions" finished-at="2023-01-31T15:59:47 PST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listofchromeoptions -->
+        <test-method is-config="true" signature="browerLaunch()[pri:0, instance:com.basicscript_facebooktestng.Facebook_Testng@957e06]" started-at="2023-01-31T15:59:47 PST" name="browerLaunch" finished-at="2023-01-31T16:00:11 PST" duration-ms="24554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browerLaunch -->
+        <test-method signature="launchUrl()[pri:0, instance:com.basicscript_facebooktestng.Facebook_Testng@957e06]" started-at="2023-01-31T16:00:11 PST" name="launchUrl" finished-at="2023-01-31T16:00:12 PST" duration-ms="761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="loginClick()[pri:1, instance:com.basicscript_facebooktestng.Facebook_Testng@957e06]" started-at="2023-01-31T16:00:12 PST" name="loginClick" finished-at="2023-01-31T16:00:15 PST" duration-ms="3184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginClick -->
+        <test-method signature="screenshot1()[pri:2, instance:com.basicscript_facebooktestng.Facebook_Testng@957e06]" started-at="2023-01-31T16:00:15 PST" name="screenshot1" finished-at="2023-01-31T16:00:23 PST" duration-ms="7906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot1 -->
+        <test-method signature="newRegistration()[pri:3, instance:com.basicscript_facebooktestng.Facebook_Testng@957e06]" started-at="2023-01-31T16:00:23 PST" name="newRegistration" finished-at="2023-01-31T16:00:39 PST" duration-ms="15860" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Create New Account']"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A3GGF3L', ip: '192.168.29.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64046}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e47d5e330d84958b4ba8e51b1f60ab4b
+*** Element info: {Using=xpath, value=//a[text()='Create New Account']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Create New Account']"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A3GGF3L', ip: '192.168.29.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64046}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e47d5e330d84958b4ba8e51b1f60ab4b
+*** Element info: {Using=xpath, value=//a[text()='Create New Account']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.basicscript_facebooktestng.Facebook_Testng.newRegistration(Facebook_Testng.java:96)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newRegistration -->
+        <test-method signature="ascreenshot2()[pri:0, instance:com.basicscript_facebooktestng.Facebook_Testng@957e06]" started-at="2023-01-31T16:00:39 PST" name="ascreenshot2" finished-at="2023-01-31T16:00:39 PST" depends-on-methods="com.basicscript_facebooktestng.Facebook_Testng.newRegistration" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.basicscript_facebooktestng.Facebook_Testng.ascreenshot2() on instance com.basicscript_facebooktestng.Facebook_Testng@957e06 depends on not successfully finished methods 
+[com.basicscript_facebooktestng.Facebook_Testng.newRegistration() on instance com.basicscript_facebooktestng.Facebook_Testng@957e06]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.basicscript_facebooktestng.Facebook_Testng.ascreenshot2() on instance com.basicscript_facebooktestng.Facebook_Testng@957e06 depends on not successfully finished methods 
+[com.basicscript_facebooktestng.Facebook_Testng.newRegistration() on instance com.basicscript_facebooktestng.Facebook_Testng@957e06]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ascreenshot2 -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.basicscript_facebooktestng.Facebook_Testng@957e06]" started-at="2023-01-31T16:00:39 PST" name="browserClose" finished-at="2023-01-31T16:00:55 PST" duration-ms="16203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- com.basicscript_facebooktestng.Facebook_Testng -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
